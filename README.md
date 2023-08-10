@@ -104,6 +104,7 @@ module "app" {
 
 | Name | Description |
 |------|-------------|
+| <a name="output_app_client_secret"></a> [app\_client\_secret](#output\_app\_client\_secret) | App password of AzureAD application created |
 | <a name="output_app_role_ids"></a> [app\_role\_ids](#output\_app\_role\_ids) | A mapping of app role values to app role IDs, intended to be useful when referencing app roles in other resources in your configuration. |
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | The application id of AzureAD application created. |
 | <a name="output_disabled_by_microsoft"></a> [disabled\_by\_microsoft](#output\_disabled\_by\_microsoft) | Whether Microsoft has disabled the registered application. If the application is disabled, this will be a string indicating the status/reason, e.g. DisabledDueToViolationOfServicesAgreement. |

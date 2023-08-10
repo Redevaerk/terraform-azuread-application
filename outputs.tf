@@ -36,6 +36,11 @@ output "app_role_ids" {
   value       = azuread_application.this.app_role_ids
 }
 
+output "app_client_secret" {
+  description = "App password of AzureAD application created"
+  value       = local.generate_password ? azuread_application_password.this[0].value : null
+}
+
 #------------
 # Service Principal
 #------------
